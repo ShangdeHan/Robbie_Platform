@@ -15,11 +15,11 @@
 * Keep press button "ctrl" and move right or left a little then jump will jump higher.
 
 #### Estimated game time
-* Level 1: About 10 mins
+* Level 1: About 5 mins
 
-* Level 2: About 20 mins
+* Level 2: About 10 mins
 
-* Level 3: About 25 mins
+* Level 3: About 15 mins
 
 #### Level 1 Walkthrough   
 

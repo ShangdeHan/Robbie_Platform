@@ -8,15 +8,15 @@
 #### Game play:   
 * "S" or "←": Move left.  
 * "R" or "→": Move right.   
-* "space": jump.  
-* "ctrl": crouch.   
-* "space" after "ctrl": jump higher.  
+* "Space": Jump.  
+* "Ctrl": Crouch.   
+* "Space" after "Ctrl": Jump higher.  
    
 #### Props:  
-* Orb: door only opens after getting enough orbs.   
+* Orb: Door only opens after getting enough orbs.   
 
 #### Skills:
-* Keep press button "ctrl" and move right or left a little then jump will jump higher.
+* Keep press button "Ctrl" and move right or left a little then jump will jump higher.
 
 #### Easter Egg:
 * You will get a easter egg after completing all three levels.

@@ -22,5 +22,15 @@ public class PlayerHealth : MonoBehaviour
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             GameManager.PlayerDied();
         }
+        if (collision.tag == "Nextlevel")
+        {
+            Invoke("Restart", 2f);
+        }
+    }
+
+
+    void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 }

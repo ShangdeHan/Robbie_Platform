@@ -1288,6 +1288,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114370556766374808, guid: 46f775b6b5aa7b94e99af3485e3c8b30,
         type: 3}
+      propertyPath: m_text
+      value: Mission Succeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 114370556766374808, guid: 46f775b6b5aa7b94e99af3485e3c8b30,
+        type: 3}
       propertyPath: m_textAlignment
       value: 65535
       objectReference: {fileID: 0}

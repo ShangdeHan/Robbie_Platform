@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
         }
         instance = this;
         orbs = new List<Orb>();
-        DontDestroyOnLoad(this);
+        //DontDestroyOnLoad(this);
     }
 
     private void Update()

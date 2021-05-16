@@ -7,11 +7,12 @@
 * "space": jump.  
 * "ctrl": crouch.   
 * "space" after "ctrl": jump higher.  
-
-   
    
 #### Props:  
 * Orb: door only opens after getting enough orbs.   
+
+#### Skills:
+* Keep press button "ctrl" and move right or left a little then jump will jump higher.
 
 #### Estimated game time
 * Level 1: About 10 mins

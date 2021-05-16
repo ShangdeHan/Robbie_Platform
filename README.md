@@ -1,6 +1,10 @@
 # Unity_RobbiePlatform
 ### A 2D game made in Unity and written in C#  
 
+#### Play Method:     
+* Method 1: Go to Executable Game file and download RobbieGame.zip file to play directly.  
+* Method 2: Download all GitHub file and open it from Unity.  
+
 #### Game play:   
 * "S" or "←": Move left.  
 * "R" or "→": Move right.   

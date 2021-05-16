@@ -9,5 +9,6 @@ Game play:
 "space" after "ctrl": jump higher.  
 
    
+   
 props:  
 Orb: door only opens after getting enough orbs.   

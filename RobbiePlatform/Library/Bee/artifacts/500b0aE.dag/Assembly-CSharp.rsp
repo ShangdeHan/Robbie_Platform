@@ -108,7 +108,7 @@
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"D:/GitHubDeskTop/ECS189_FinalProject/RobbiePlatform/Library/PackageCache/com.unity.cinemachine@2.7.2/Runtime/ThirdParty/clipper_library.dll"
+-r:"C:/Users/shangde/Desktop/ECS189_FinalProject-main/RobbiePlatform/Library/PackageCache/com.unity.cinemachine@2.7.2/Runtime/ThirdParty/clipper_library.dll"
 -r:"D:/Unity Editor/2021.1.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/Unity Editor/2021.1.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"D:/Unity Editor/2021.1.0f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"

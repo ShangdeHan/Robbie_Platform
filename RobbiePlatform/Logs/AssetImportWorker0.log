@@ -135,6 +135,7 @@ System memory in use after: 101.5 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2630.
 Total: 3.126400 ms (FindLiveObjects: 0.160200 ms CreateObjectMapping: 0.080200 ms MarkObjects: 2.868800 ms  DeleteObjects: 0.016300 ms)
+<<<<<<< Updated upstream
 
 ========================================================================
 Received Import Request.
@@ -237,5 +238,7 @@ System memory in use after: 101.3 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2629.
 Total: 2.022700 ms (FindLiveObjects: 0.167400 ms CreateObjectMapping: 0.082200 ms MarkObjects: 1.755000 ms  DeleteObjects: 0.016600 ms)
+=======
+>>>>>>> Stashed changes
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

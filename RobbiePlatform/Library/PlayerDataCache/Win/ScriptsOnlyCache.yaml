@@ -107,14 +107,30 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1558}
+    - Class: 114
       Script: {instanceID: 1560}
     - Class: 114
+      Script: {instanceID: 1836}
+    - Class: 114
+      Script: {instanceID: 1944}
+    - Class: 114
       Script: {instanceID: 1954}
+    - Class: 114
+      Script: {instanceID: 2072}
     - Class: 114
       Script: {instanceID: 2748}
     - Class: 114
@@ -122,9 +138,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2974}
     - Class: 114
+      Script: {instanceID: 3022}
+    - Class: 114
       Script: {instanceID: 3124}
     - Class: 114
       Script: {instanceID: 3364}
+    - Class: 114
+      Script: {instanceID: 3490}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -142,6 +162,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/level1.unity:
     - Class: 1

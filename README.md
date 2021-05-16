@@ -14,6 +14,9 @@
 #### Skills:
 * Keep press button "ctrl" and move right or left a little then jump will jump higher.
 
+#### Easter Egg:
+* You will get a easter egg after completing all three levels.
+
 #### Estimated game time
 * Level 1: About 5 mins
 

@@ -21,5 +21,15 @@
 
 * Level 3: About 25 mins
 
-https://user-images.githubusercontent.com/44447220/118391530-8e0a9e00-b5e9-11eb-8ed4-47c4a73762df.mp4
+#### Level 1 Walkthrough   
+
+https://user-images.githubusercontent.com/44447220/118391530-8e0a9e00-b5e9-11eb-8ed4-47c4a73762df.mp4   
+
+#### Level 2 Walkthrough   
+
+https://user-images.githubusercontent.com/44447220/118391564-b7c3c500-b5e9-11eb-9a90-48637704c85c.mp4   
+
+#### Level 3 Walkthrough   
+
+https://user-images.githubusercontent.com/44447220/118391574-beead300-b5e9-11eb-8d4a-504f28feec20.mp4   
 

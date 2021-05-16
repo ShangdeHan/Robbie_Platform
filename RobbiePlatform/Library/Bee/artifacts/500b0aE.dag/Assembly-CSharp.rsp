@@ -352,6 +352,7 @@
 "Assets/Scripts/FPS.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/LightFlicker.cs"
+"Assets/Scripts/Menu.cs"
 "Assets/Scripts/Orb.cs"
 "Assets/Scripts/PlayerAnimation.cs"
 "Assets/Scripts/PlayerHealth.cs"

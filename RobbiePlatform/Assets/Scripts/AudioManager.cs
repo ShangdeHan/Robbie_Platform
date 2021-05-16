@@ -6,6 +6,7 @@ using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     static AudioManager current;
+    public AudioMixer audioMixer;
 
     public AudioClip winClip;
     public AudioClip startLevelClip;
@@ -58,9 +59,9 @@ public class AudioManager : MonoBehaviour
         current.ambientSource.loop = true;
         current.ambientSource.Play();
 
-        current.musicSource.clip = current.musicClip;
-        current.musicSource.loop = true;
-        current.musicSource.Play();
+        //current.musicSource.clip = current.musicClip;
+        //current.musicSource.loop = true;
+        //current.musicSource.Play();
 
         current.fxSource.clip = current.startLevelClip;
         current.fxSource.Play();
@@ -117,5 +118,13 @@ public class AudioManager : MonoBehaviour
         current.fxSource.Play();
         current.voiceSource.clip = current.orbVoiceClip;
         current.voiceSource.Play();
+    }
+
+    public void SetVolume(float value)
+    {
+        audioMixer.SetFloat("MyExposedParam", value);
+        audioMixer.SetFloat("SoundVolume", value);
+        audioMixer.SetFloat("MusicVolume", value);
+        audioMixer.SetFloat("MyExposedParam1", value);
     }
 }

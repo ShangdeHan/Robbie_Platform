@@ -11251,6 +11251,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pause
       objectReference: {fileID: 0}
+    - target: {fileID: 5817375647425536187, guid: fd016238ccc9dbc4f8e39365cec2f7fb,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.2784314
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd016238ccc9dbc4f8e39365cec2f7fb, type: 3}
 --- !u!1 &519420028

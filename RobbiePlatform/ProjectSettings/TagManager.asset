@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NextLevel
   - Nextlevel
+  - final
   layers:
   - Default
   - TransparentFX

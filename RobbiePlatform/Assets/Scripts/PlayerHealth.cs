@@ -26,6 +26,10 @@ public class PlayerHealth : MonoBehaviour
         {
             Invoke("Restart", 2f);
         }
+        if (collision.tag == "final")
+        {
+            
+        }
     }
 
 

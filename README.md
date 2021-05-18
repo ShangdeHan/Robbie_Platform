@@ -21,6 +21,9 @@
 #### Easter Egg:
 * You will get a easter egg after completing all three levels.
 
+#### Tips:
+* Based on our design, you only can change music volume at the begining of the game.
+
 #### Estimated game time
 * Level 1: About 5 mins
 

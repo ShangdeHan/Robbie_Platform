@@ -44,3 +44,6 @@ https://user-images.githubusercontent.com/44447220/118391564-b7c3c500-b5e9-11eb-
 
 https://user-images.githubusercontent.com/44447220/118391574-beead300-b5e9-11eb-8d4a-504f28feec20.mp4   
 
+
+#### Game Sources
+* We found all the objects and backgrounds used in the game from the open source of unity and steam, which provided great convenience for us to make the game.

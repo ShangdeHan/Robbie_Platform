@@ -11,7 +11,7 @@ public class PlayerHealth : MonoBehaviour
     {
         trapsLayer = LayerMask.NameToLayer("Traps");
     }
-
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.layer == trapsLayer)
@@ -27,8 +27,7 @@ public class PlayerHealth : MonoBehaviour
             Invoke("Restart", 2f);
         }
         if (collision.tag == "final")
-        {
-            
+        {    
         }
     }
 

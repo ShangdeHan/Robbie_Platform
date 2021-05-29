@@ -78,7 +78,8 @@ public class PlayerMovement : MonoBehaviour
         GroundMovement();
         MidAirMovement();
     }
-
+    
+    //fucntion that check for hit between player and wall by ray
     void PhysicsCheck()
     {
         //left and right ray
@@ -87,11 +88,12 @@ public class PlayerMovement : MonoBehaviour
         if (leftCheck || rightCheck)
             isOnGround = true;
         else isOnGround = false;
+        
         //head ray
         RaycastHit2D headCheck = Raycast(new Vector2(0f, coll.size.y), Vector2.up, headClearance, groundLayer);
         if (headCheck) isHeadBlocked = true;
         else isHeadBlocked = false;
-
+        
         float direction = transform.localScale.x;
         Vector2 grabDir = new Vector2(direction, 0f);
         RaycastHit2D blockCheck = Raycast(new Vector2(footOffset*direction, playerHeight), grabDir, grabDistance, groundLayer);
@@ -107,23 +109,27 @@ public class PlayerMovement : MonoBehaviour
             isHanging = true;
         }
     }
-
+    //function that handle movement that happen on the ground 
     void GroundMovement()
     {
         if (isHanging) return;
+        //call crouch() if ctrl is hold and player is on the ground
         if (crouchHeld && !isCrouch && isOnGround)
             Crouch();
+        //call standup if player release the ctrl, or please isnt on ground
         else if (!crouchHeld && isCrouch && !isHeadBlocked)
             StandUp();
         else if (!isOnGround && isCrouch)
             StandUp();
         xVelocity = Input.GetAxis("Horizontal");
+        //change speed when crouch
         if (isCrouch)
             xVelocity /= crouchSpeedDivisor;
         rb.velocity = new Vector2(xVelocity * speed, rb.velocity.y);
         FlipDirection();
     }
-
+    
+    // function that handle the direction the character flip to
     void FlipDirection()
     {
         if(xVelocity < 0)
@@ -135,21 +141,24 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
         }
     }
-
+    
+    // implement the crouch to character
     void Crouch()
     {
         isCrouch = true;
         coll.size = colliderCrouchSize;
         coll.offset = colliderCrouchOffset;
     }
-
+    
+    // implement the standup to character
     void StandUp()
     {
         isCrouch = false;
         coll.size = colliderStandSize;
         coll.offset = colliderStandOffset;
     }
-
+    
+    // function that handle the movement that display in the air
     void MidAirMovement()
     {
         if (isHanging)

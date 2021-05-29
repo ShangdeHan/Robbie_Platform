@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     SceneFader fader;
     List<Orb> orbs;
     Door lockedDoor;
-    DoorUP lockedDoorUP;
+    DoorUP lockedDoorUP; 
     //public int orbNum;
     public int deathNum;
     float gameTime;

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//Animator connection
 public class SceneFader : MonoBehaviour
 {
     int faderID;

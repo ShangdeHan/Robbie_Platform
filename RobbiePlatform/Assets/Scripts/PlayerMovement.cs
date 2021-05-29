@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
         colliderCrouchOffset = new Vector2(coll.offset.x, coll.offset.y / 2f);
     }
 
-    // Update is called once per frame
+    // Update is called per frame
     void Update()
     {
         if (GameManager.GameOver()) return;
@@ -78,22 +78,20 @@ public class PlayerMovement : MonoBehaviour
         GroundMovement();
         MidAirMovement();
     }
-    
-    //fucntion that check for hit between player and wall by ray
+
     void PhysicsCheck()
     {
-        //left and right ray
+        //Left and right ray
         RaycastHit2D leftCheck = Raycast(new Vector2(-footOffset, 0f), Vector2.down, groundDistance, groundLayer);
         RaycastHit2D rightCheck = Raycast(new Vector2(footOffset, 0f), Vector2.down, groundDistance, groundLayer);
         if (leftCheck || rightCheck)
             isOnGround = true;
         else isOnGround = false;
-        
-        //head ray
+        //Head ray
         RaycastHit2D headCheck = Raycast(new Vector2(0f, coll.size.y), Vector2.up, headClearance, groundLayer);
         if (headCheck) isHeadBlocked = true;
         else isHeadBlocked = false;
-        
+
         float direction = transform.localScale.x;
         Vector2 grabDir = new Vector2(direction, 0f);
         RaycastHit2D blockCheck = Raycast(new Vector2(footOffset*direction, playerHeight), grabDir, grabDistance, groundLayer);
@@ -109,27 +107,25 @@ public class PlayerMovement : MonoBehaviour
             isHanging = true;
         }
     }
-    //function that handle movement that happen on the ground 
+    
+    //Different actions/movements on the ground
     void GroundMovement()
     {
         if (isHanging) return;
-        //call crouch() if ctrl is hold and player is on the ground
         if (crouchHeld && !isCrouch && isOnGround)
             Crouch();
-        //call standup if player release the ctrl, or please isnt on ground
         else if (!crouchHeld && isCrouch && !isHeadBlocked)
             StandUp();
         else if (!isOnGround && isCrouch)
             StandUp();
         xVelocity = Input.GetAxis("Horizontal");
-        //change speed when crouch
         if (isCrouch)
             xVelocity /= crouchSpeedDivisor;
         rb.velocity = new Vector2(xVelocity * speed, rb.velocity.y);
         FlipDirection();
     }
     
-    // function that handle the direction the character flip to
+    //Flip left and right
     void FlipDirection()
     {
         if(xVelocity < 0)
@@ -141,8 +137,8 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
         }
     }
-    
-    // implement the crouch to character
+
+    //For crouch
     void Crouch()
     {
         isCrouch = true;
@@ -150,15 +146,15 @@ public class PlayerMovement : MonoBehaviour
         coll.offset = colliderCrouchOffset;
     }
     
-    // implement the standup to character
+    //For stand up
     void StandUp()
     {
         isCrouch = false;
         coll.size = colliderStandSize;
         coll.offset = colliderStandOffset;
     }
-    
-    // function that handle the movement that display in the air
+
+    //Check if hangs on the stuff in the middle
     void MidAirMovement()
     {
         if (isHanging)
@@ -206,6 +202,5 @@ public class PlayerMovement : MonoBehaviour
         Color color = hit ? Color.red : Color.blue;
         Debug.DrawRay(pos+offset, rayDuration*length, color);
         return hit;
-        
     }
 }

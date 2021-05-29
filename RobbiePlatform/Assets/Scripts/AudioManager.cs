@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
+using UnityEngine.Audio; 
 
 public class AudioManager : MonoBehaviour
 { 
@@ -53,6 +53,7 @@ public class AudioManager : MonoBehaviour
         StartLevelAudio();
     }
 
+    //Start audio
     void StartLevelAudio()
     {
         current.ambientSource.clip = current.ambientClip;
@@ -67,6 +68,7 @@ public class AudioManager : MonoBehaviour
         current.fxSource.Play();
     }
 
+    //This audio will be played when the player wins
     public static void PlayerWonAudio()
     {
         current.fxSource.clip = current.winClip;
@@ -74,12 +76,14 @@ public class AudioManager : MonoBehaviour
         current.playerSource.Stop();
     }
 
+    //Open door audio
     public static void PlayDoorOpenAudio()
     {
         current.fxSource.clip = current.doorFXClip;
         current.fxSource.PlayDelayed(1.1f);
     }
 
+    //Walking audio
     public static void PlyerFootStepAudio()
     {
         int index = Random.Range(0, current.walkStepsClip.Length);
@@ -87,6 +91,7 @@ public class AudioManager : MonoBehaviour
         current.playerSource.Play();
     }
 
+    //Crouch audio
     public static void PlyerCrouchFootStepAudio()
     {
         int index = Random.Range(0, current.crouchStepsClip.Length);
@@ -94,6 +99,7 @@ public class AudioManager : MonoBehaviour
         current.playerSource.Play();
     }
 
+    //Jump audio
     public static void playJumpAudio()
     {
         current.playerSource.clip = current.jumpClip;
@@ -102,6 +108,7 @@ public class AudioManager : MonoBehaviour
         current.voiceSource.Play();
     }
 
+    //This audio will be played when the player dies
     public static void playDeathAudio()
     {
         current.playerSource.clip = current.deathClip;
@@ -112,6 +119,7 @@ public class AudioManager : MonoBehaviour
         current.fxSource.Play();
     }
 
+    //This audio will be played when the player successfully collects the orbs(particle effect)
     public static void playOrbAudio()
     {
         current.fxSource.clip = current.orbFxClip;
@@ -120,6 +128,7 @@ public class AudioManager : MonoBehaviour
         current.voiceSource.Play();
     }
 
+    //This is for setting game volume and will be expanded in the UI part later
     public void SetVolume(float value)
     {
         audioMixer.SetFloat("MyExposedParam", value);

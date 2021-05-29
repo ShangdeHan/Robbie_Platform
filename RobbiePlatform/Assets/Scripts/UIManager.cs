@@ -26,7 +26,7 @@ public class UIManager : MonoBehaviour
 
     public static void UpdateDeathUI(int deathCount)
     {
-        instance.deathText.text = deathCount.ToString();
+        instance.deathText.text = deathCount.ToString(); 
 
     }
 

@@ -22,6 +22,6 @@ public class Door : MonoBehaviour
         AudioManager.PlayDoorOpenAudio();
     }
 
- 
+  
 
 }

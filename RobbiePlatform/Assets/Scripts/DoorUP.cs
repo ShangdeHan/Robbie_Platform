@@ -18,5 +18,5 @@ public class DoorUP : MonoBehaviour
     {
         anim.SetTrigger(openID);
         AudioManager.PlayDoorOpenAudio();
-    }
+    } 
 }

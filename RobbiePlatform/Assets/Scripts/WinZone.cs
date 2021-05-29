@@ -11,7 +11,7 @@ public class WinZone : MonoBehaviour
         playerLayer = LayerMask.NameToLayer("Player");
     }
 
-
+    //Will be output in console
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.layer == playerLayer)

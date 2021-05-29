@@ -12,7 +12,7 @@ public class EmissionPulse : MonoBehaviour
 	Material material;					//The material being controlled
 	int emissionColorProperty;			//The ID of the emission property
 
-
+ 
 	void Start ()
 	{
 		//Get a reference to the Renderer component so we can store the material of it

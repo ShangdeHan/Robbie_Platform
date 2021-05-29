@@ -18,7 +18,6 @@ public class PlayerAnimation : MonoBehaviour {
         crouchID = Animator.StringToHash("isCrouching");
         speedID = Animator.StringToHash("speed");
         fallID = Animator.StringToHash("verticalVelocity");
-
     }
 
     // Update is called once per frame

@@ -27,9 +27,9 @@
 #### Estimated game time
 * Level 1: About 5 mins
 
-* Level 2: About 10 mins
+* Level 2: About 8 mins
 
-* Level 3: About 15 mins
+* Level 3: About 12 mins
 
 
 #### Level 1 Walkthrough   

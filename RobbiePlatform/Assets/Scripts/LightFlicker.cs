@@ -6,11 +6,11 @@ using UnityEngine;
 
 public class LightFlicker : MonoBehaviour
 {
-    public float amount;	//The amount of light flicker
-    public float speed;		//The speed of the flicker
+	public float amount;	//The amount of light flicker
+    	public float speed;		//The speed of the flicker
     
-    Light localLight;		//Reference to the light component
-    float intensity;		//The collective intensity of the light component
+    	Light localLight;		//Reference to the light component
+    	float intensity;		//The collective intensity of the light component
 	float offset;			//An offset so all flickers are different
 
 
@@ -22,14 +22,14 @@ public class LightFlicker : MonoBehaviour
 	}
 
 	void Start()
-    {
+    	{
 		//Get a reference to the Light component on the child game object
 		localLight = GetComponentInChildren<Light>();
 
 		//Record the intensity and pick a random seed number to start
-        intensity = localLight.intensity;
-        offset = Random.Range(0, 10000);
-    }
+        	intensity = localLight.intensity;
+        	offset = Random.Range(0, 10000);
+    	}
 
 	void Update ()
 	{

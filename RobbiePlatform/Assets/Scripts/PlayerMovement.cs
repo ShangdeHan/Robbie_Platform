@@ -206,5 +206,6 @@ public class PlayerMovement : MonoBehaviour
         Color color = hit ? Color.red : Color.blue;
         Debug.DrawRay(pos+offset, rayDuration*length, color);
         return hit;
+        
     }
 }

@@ -120,43 +120,7 @@ public class SkinnedMeshRendererEditor : SortingLayerEditor
     }
 }
 
-//[CustomEditor(typeof(ParticleSystemRenderer))]
-//public class ParticleSystemRendererEditor : SortingLayerEditor
-//{
-//    public override void OnInspectorGUI()
-//    {
-//        base.OnInspectorGUI();
-//        SortingLayerGUI();
-//    }
-//}
 
-//[CustomEditor(typeof(ParticleRenderer))]
-//public class ParticleRendererEditor : SortingLayerEditor
-//{
-//    public override void OnInspectorGUI()
-//    {
-//        base.OnInspectorGUI();
-//        SortingLayerGUI();
-//    }
-//}
 
-//[CustomEditor(typeof(TrailRenderer))]
-//public class TrailRendererEditor : SortingLayerEditor
-//{
-//    public override void OnInspectorGUI()
-//    {
-//        base.OnInspectorGUI();
-//        SortingLayerGUI();
-//    }
-//}
 
-//[CustomEditor(typeof(LineRenderer))]
-//public class LineRendererEditor : SortingLayerEditor
-//{
-//    public override void OnInspectorGUI()
-//    {
-//        base.OnInspectorGUI();
-//        SortingLayerGUI();
-//    }
-//}
 

@@ -11,7 +11,7 @@
 * "Space": Jump.  
 * "Ctrl": Crouch.   
 * "Space" after "Ctrl": Jump higher.  
-* "Ctrl": if you are hanging on the wall, press "ctrl" to drop down.
+* "Ctrl": if you are hanging on the wall, press "Ctrl" to drop down.
    
 #### Props:  
 * Orb: Door only opens after getting enough orbs.   

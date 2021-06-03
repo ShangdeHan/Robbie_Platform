@@ -6,7 +6,7 @@ public class DoorUP : MonoBehaviour
 {
     Animator anim;
     int openID;
-
+    
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -19,4 +19,5 @@ public class DoorUP : MonoBehaviour
         anim.SetTrigger(openID);
         AudioManager.PlayDoorOpenAudio();
     } 
+    
 }

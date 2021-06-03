@@ -6,8 +6,8 @@
 * Method 2: Download all GitHub file and open it from Unity.  
 
 #### Game play:   
-* "S" or "←": Move left.  
-* "R" or "→": Move right.   
+* "A" or "←": Move left.  
+* "D" or "→": Move right.   
 * "Space": Jump.  
 * "Ctrl": Crouch.   
 * "Space" after "Ctrl": Jump higher.  

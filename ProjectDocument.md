@@ -101,7 +101,8 @@ There are three levels in this game, and each level contains axe, spike, fall st
 3. I added a "Music Volume" slider in the pause menu to let player control the background volume. In many tests, we considered to delete the windstone sound.  
 4. I added tips in the pause menu to support some operation informations, such as how to move, how to jump, how to jump higher, and how many levels in total. 
 5. I improves the hang on status. In that status, player can drop off by using "Ctrl".
-6. we fixed the third level bug that sometimes Robbie can get stuck in the wall.
-7. we designed a key(Esc) command to let user Pause the game and show the "Pause" menu by clicking that key which is easier to users.
-8. we changed the success image which is more relative to this game after passing all levels. 
-9. We considered to have 2 different kinds of big jumps, and players are able to alter each one, but we think it is too easy for player to perform a big jump with a single button. So, we remain it as the original design("Ctrl" and "Space" combination). 
+6. I impelmented a particle effect when Robbie is collecting orbs.
+7. we fixed the third level bug that sometimes Robbie can get stuck in the wall.
+8. we designed a key(Esc) command to let user Pause the game and show the "Pause" menu by clicking that key which is easier to users.
+9. we changed the success image which is more relative to this game after passing all levels. 
+10. We considered to have 2 different kinds of big jumps, and players are able to alter each one, but we think it is too easy for player to perform a big jump with a single button. So, we remain it as the original design("Ctrl" and "Space" combination). 

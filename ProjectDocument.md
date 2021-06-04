@@ -92,10 +92,10 @@ However, we did not satisfied with the frame rate because sometimes it drop fram
 ### Game feel about response time / Real Time Control:  
 The response time is important to measure a game. In this Robbie platform which is a level based advanture game, we focused on the players feedback. After completing the first game version, we introduced this game to other students(five people) to get their feedback and suggestions. In the process of they play the game, we noticed that the player can pay their all attention on this game to explore how to pass the current level. And they felt interested in this game, we can see that they feel happy obviously on their face when they pass one level after many times attempts. When they got stuck on some places we can see they considered a lot and think deeply to find other methods. Thus, I believe that people have a great response for this game.   
 
-### simulated space:   
+### Simulated space:   
 There are three levels in this game, and each level contains axe, spike, fall stone, orb, and door to make the game be more playable. The first level is the easiest because the main purpose for this level is to let player familiar with how to operate the character to move, jump, hang on, and collect orbs to open the door. The next level is more difficult because it tests player's timing and skill in a high levle. We considered that we only desgin these two levels, but other tester students said that player will want to explore more and overcome more challenges. So, we designed the third level which is the evil difficulty for me. I failed many times in the third level, but obtained the best feeling after passing it. Therefore, based on these three levels, people will enjoy this game.   
 
-### polish:    
+### Polish:    
 1. I added "Pause" menu when player wants to pasue the game. Also, we set a "Resume" button in that manu to let player continue the game.
 2. I added "Quit" button let player quit the game when they play in the .exe file.    
 3. I added a "Music Volume" slider in the pause menu to let player control the background volume. In many tests, we considered to delete the windstone sound.  

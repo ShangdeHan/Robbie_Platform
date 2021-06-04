@@ -24,7 +24,7 @@ Here is an example:
 
 You should replay any **bold text** with your relevant information. Liberally use the template when necessary and appropriate.
 
-## User Interface
+## User Interface (Name: Shangde Han)
 
 **Describe your user interface and how it relates to gameplay. This can be done via the template.**
 
@@ -76,19 +76,21 @@ You should replay any **bold text** with your relevant information. Liberally us
 
 
 
-## Game Feel
+## Game Feel (Name: Shangde Han)
 
 **Document what you added to and how you tweaked your game to improve its game feel.**
 ### Summary:
 Game feel in this game motivates players to explore every new things and skills to arrive the next level. 
 If players do not check the pause menu, they do not know how to jump higher and how many levels in total. Like Super Mario or many other game, players need to try many different 
 keys combo to discover that they can control character to hang on the wall corner. Of course, if people do not want to try many times or they would like to learn how to operate
-the character directly, they can read the "README.md" before they play the game to see all tips. If people forget to check that file, they can also can some tips in the game by entering "Esc" or clicking "Pause" to know informations. Besides, it is possible that players get stuck on the specific level and cannot pass it. So, we put each levels' walkthrough to help people to know how to get the next level. However, if people would like to try everything by themselves, they will obtain a lot of sense of achievement in the process of exploring until pass all levels.    
+the character directly, they can read the "README.md" before they play the game to see all tips. If people forget to check that file, they can also can some tips in the game by entering "Esc" or clicking "Pause" to know informations. Besides, it is possible that players get stuck on the specific level and cannot pass it. So, we put each levels' walkthrough to help people to know how to get the next level. However, if people would like to try everything by themselves, they will obtain a lot of sense of achievement in the process of exploring until pass all levels.      
 
-#### Game feel about frame rate:   
+### Game feel about frame rate:  
+We spent a lot of time on pursuing a comfortable frame rate to support a better game feel. In the beginning of designing this game, we tried to use Update() function to control Robbie's movement. But we found that the character cannot move smoothly expecially after we click the jump button. Then, we found that the problem might be the difference of "GetButtonDown" and "GetButton". We checked the unity manual it shows that "GetButtonDown" Returns true during the frame the user pressed down the virtual button identified by buttonName. people need to call this function from the Update function, since the state gets reset each frame. It will not return true until the user has released the key and pressed it again. But "GetButton" Returns true while the virtual button identified by buttonName is held down. So, we separeted them to two different situations for jump. We used "GetButtonDown" to check whether the player clikc the specific button, and used "GetButton" to check whether the button is pressed. And in the end we fixed this probelm.  
+However, we did not satisfied with the frame rate because sometimes it drop frames. Then, we added another function called "FixedUpdate()" to check the movement case. After improving the performance of this game, we finally feel that player can feel better when they play this game.   
 
+### Game feel about response time:  
 
-Game feel about response time:  
 
 ### Three parts:   
 Real time conrotl:  

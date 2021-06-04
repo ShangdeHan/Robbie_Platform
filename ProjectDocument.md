@@ -79,4 +79,23 @@ You should replay any **bold text** with your relevant information. Liberally us
 ## Game Feel
 
 **Document what you added to and how you tweaked your game to improve its game feel.**
-Game feel is It is hard to decide what game feel we would like to bring to player when we first came up to design this game. 
+### Summary:
+Game feel in this game motivates players to explore every new things and skills to arrive the next level. 
+If players do not check the pause menu, they do not know how to jump higher and how many levels in total. Like Super Mario or many other game, players need to try many different 
+keys combo to discover that they can control character to hang on the wall corner. Of course, if people do not want to try many times or they would like to learn how to operate
+the character directly, they can read the "README.md" before they play the game to see all tips. If people forget to check that file, they can also can some tips in the game by entering "Esc" or clicking "Pause" to know informations. Besides, it is possible that players get stuck on the specific level and cannot pass it. So, we put each levels' walkthrough to help people to know how to get the next level. However, if people would like to try everything by themselves, they will obtain a lot of sense of achievement in the process of exploring until pass all levels.    
+
+#### Game feel about frame rate:   
+
+
+Game feel about response time:  
+
+### Three parts:   
+Real time conrotl:  
+
+
+simulated space:  
+
+
+polish:  
+

@@ -90,7 +90,7 @@ We spent a lot of time on pursuing a comfortable frame rate to support a better 
 However, we did not satisfied with the frame rate because sometimes it drop frames. Then, we added another function called "FixedUpdate()" to check the movement case. After improving the performance of this game, we finally feel that player can feel better when they play this game.   
 
 ### Game feel about response time:  
-The response time is important to measure a game. In this Robbie platform which is a level based advanture game, we focused on the players feedback. After completing the first game version, we introduced this game to other students(five people) to get their feedback and suggestions. 
+The response time is important to measure a game. In this Robbie platform which is a level based advanture game, we focused on the players feedback. After completing the first game version, we introduced this game to other students(five people) to get their feedback and suggestions. In the process of they play the game, we noticed that the player can pay their all attention on this game to explore how to pass the current level. And they felt interested in this game, we can see that they feel happy obviously on their face when they pass one level after many times attempts. When they got stuck on some places we can see they considered a lot and think deeply to find other methods. Thus, I believe that people have a great response for this game. 
 
 ### Three parts:   
 #### *Real time conrotl:*  

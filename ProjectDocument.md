@@ -79,3 +79,4 @@ You should replay any **bold text** with your relevant information. Liberally us
 ## Game Feel
 
 **Document what you added to and how you tweaked your game to improve its game feel.**
+Game feel is It is hard to decide what game feel we would like to bring to player when we first came up to design this game. 

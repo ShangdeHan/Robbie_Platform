@@ -39,10 +39,8 @@ You should replay any **bold text** with your relevant information. Liberally us
 **Describe how your work intersects with game feel, graphic design, and world-building. Include your visual style guide if one exists.**
 
 ## Input
-
-**Describe the default input configuration.**
-
-**Add an entry for each platform or input style your project supports.**
+Just like most of the games, A means moving left, D means moving right, Space means a single jump, Cril means crounch, Crtl plus Space means double jump, and also
+if you are hanging on the wall then just press Crtl to drop off the wall.
 
 ## Game Logic
 
@@ -70,10 +68,11 @@ You should replay any **bold text** with your relevant information. Liberally us
 
 ## Press Kit and Trailer
 
-**Include links to your presskit materials and trailer.**
+https://github.com/ShangdeHan/ECS189_FinalProject
 
-**Describe how you showcased your work. How did you choose what to show in the trailer? Why did you choose your screenshots?**
-
+For the presskit, I mainly described what is our game about, what things are included in the game, and how to play this game and complete it. And I also added 
+some side informations into the presskit to make the game sounds more interesting.
+For the trailer, I picked some short clips from each level to show players what are the differences between the original version and ours version. Also, the players can see what the main screen looks like through the short videos.
 
 
 ## Game Feel (Name: Shangde Han)

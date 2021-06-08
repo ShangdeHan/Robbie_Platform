@@ -42,7 +42,9 @@ You should replay any **bold text** with your relevant information. Liberally us
 Just like most of the games, A means moving left, D means moving right, Space means a single jump, Cril means crounch, Crtl plus Space means double jump, and also
 if you are hanging on the wall then just press Crtl to drop off the wall.
 
-## Game Logic
+## Game Logic (Shijiao Song)
+Design the levels and obstacles of the game including the size and style of maps, the ways to win the game. Also, control the difficulties between levels, and make players feel good while playing.
+
 
 **Document what game states and game data you managed and what design patterns you used to complete your task.**
 
@@ -56,11 +58,19 @@ if you are hanging on the wall then just press Crtl to drop off the wall.
 
 **Document the sound style.** 
 
-## Gameplay Testing
+## Gameplay Testing (Shijiao Song)
 
-**Add a link to the full results of your gameplay tests.**
+After a few tests by myself, and some tests done by my friends and TA, I found some problems and we fixed it.
 
-**Summarize the key findings from your gameplay tests.**
+1. We fix the volume bar so that it can correctly change the volume of the game.
+2. We give specific game play instruction in the pause menu.
+3. We fixed a minor bug that may cause player stuck in the wall.
+4. We also add the total numbers of levels description in the pause menu.
+5. We enable player to call the Pause menu when press "Esc", and resume the game with "Esc".
+6. We changed the success picture so that it will be more coherence with the overall theme.
+7. We reconsidered camera type, and resized it to make the goals and obstacles clear.
+
+Moreover, we changed some obstacles to make the game difficulty more suitable for players.
 
 ## Narrative Design
 

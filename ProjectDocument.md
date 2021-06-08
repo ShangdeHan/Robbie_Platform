@@ -45,8 +45,7 @@ if you are hanging on the wall then just press Crtl to drop off the wall.
 ## Game Logic (Shijiao Song)
 Design the levels and obstacles of the game including the size and style of maps, the ways to win the game. Also, control the difficulties between levels, and make players feel good while playing.
 
-
-**Document what game states and game data you managed and what design patterns you used to complete your task.**
+Many of the game data comes from the Assets store of Steam, and some of them are designed by me.
 
 # Sub-Roles
 

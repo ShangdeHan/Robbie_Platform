@@ -69,7 +69,11 @@ You should replay any **bold text** with your relevant information. Liberally us
 
 ## Movement/Physics
 
-**Describe the basics of movement and physics in your game. Is it the standard physics model? What did you change or modify? Did you make your movement scripts that do not use the physics system?**
+In our game, the basics of movements we have are ```go left/right```, ```jump```, and ```crouch```. And some special movement such as ```crouch jump``` (jump higher) and ```catch the edge of the floor```. All these movements were implemented in [PlayerMovement.cs](https://github.com/ShangdeHan/ECS189_FinalProject/blob/0c1dc38227404291f04ace6146d4f7b8cbb8a671/RobbiePlatform/Assets/Scripts/PlayerMovement.cs). 
+
+
+This movement script did not use any standard physics model and physics system. For what I did, I just implemented all basic movements that make the game playable. Then I implemented some advanced movements to make the game process more flexible. First, the super jump will be applied when the player clicks the jump button when holding the crouch. Second, floor catching, the player can catch the floor, this is a skill to help the player enter the higher floor. Furthermore, I also implement a function call [physicsCheck](https://github.com/ShangdeHan/ECS189_FinalProject/blob/0c1dc38227404291f04ace6146d4f7b8cbb8a671/RobbiePlatform/Assets/Scripts/PlayerMovement.cs#L82) that used ray to check each side of the character. The ray helps me to figure out which side of the player is touching the wall or floor. All movement will display differently when there is a touching.
+
 
 ## Animation and Visuals
 

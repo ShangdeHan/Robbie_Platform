@@ -67,13 +67,11 @@ There is a "Pause" button on the top of the screen. Player can click that button
 
 
 
-## Movement/Physics
+## Movement/Physics (Chongwen Wang)
 
 In our game, the basics of movements we have are ```go left/right```, ```jump```, and ```crouch```. And some special movement such as ```crouch jump``` (jump higher) and ```catch the edge of the floor```. All these movements were implemented in [PlayerMovement.cs](https://github.com/ShangdeHan/ECS189_FinalProject/blob/0c1dc38227404291f04ace6146d4f7b8cbb8a671/RobbiePlatform/Assets/Scripts/PlayerMovement.cs). 
 
-
 This movement script does not use any standard physics model and physics system. For what I did, I just implemented all basic movements that make the game playable. Then I implemented some advanced movements to make the game process more flexible. First, the super jump will be applied when the player clicks the jump button when holding the crouch. To implement this skill, I [added force]( https://github.com/ShangdeHan/ECS189_FinalProject/blob/0c1dc38227404291f04ace6146d4f7b8cbb8a671/RobbiePlatform/Assets/Scripts/PlayerMovement.cs#L177) to the character to let him jump higher than usual. Second, floor catching, the player can catch the floor, this is a skill to help the player enter the higher floor.  furthermore, I also implement a function call [physicsCheck](https://github.com/ShangdeHan/ECS189_FinalProject/blob/0c1dc38227404291f04ace6146d4f7b8cbb8a671/RobbiePlatform/Assets/Scripts/PlayerMovement.cs#L82) that used ray to check each side of the character. The ray helps me to figure out which side of the player is touching the wall or floor. All movement will display differently when there is a touching.
-
 
 To have the best performance, player’s movement will display differently according to the situation. Some physics elements will change to make these movements look more similar to real-world movements, such as velocity. When the character is crouching, the speed of walking will [decrease]( https://github.com/ShangdeHan/ECS189_FinalProject/blob/0c1dc38227404291f04ace6146d4f7b8cbb8a671/RobbiePlatform/Assets/Scripts/PlayerMovement.cs#L122). 
 
@@ -142,10 +140,13 @@ After a few tests by myself, and some tests done by my friends and TA, I found s
 
 Moreover, we changed some obstacles to make the game difficulty more suitable for players.
 
-## Narrative Design
+## Narrative Design (Chongwen Wang)
 
-**Document how the narrative is present in the game via assets, gameplay systems, and gameplay.** 
+For the narrative design, I design a background story that help our team design the gameplay logic, game levels, and make player have a better game experience. By knowing the background, player can figure out their final mission of the game.  
 
+The background story is: Robbie left his home since childhood. In order to survive, he needs to find food by stealing. After years of experience, Robbie has super athletic ability and a smart brain and became a well-known local robber. One day, someone found Robbie and wanted to hire him to steal gems in an underground warehouse of a rich man. After the mission is completed, Robbie can get a lot of money and no longer worry about survival. Robbie does not want to give up this chance, so his adventure begins…
+
+The narrative present in game levels. In each level, people need to collect gems/coins in order to go to the next level. The reason why Robbie is taking these gems is that these gems will bring him a better life. And the map of each level was designed based on the underground warehouse.  
 ## Press Kit and Trailer
 
 https://github.com/ShangdeHan/ECS189_FinalProject

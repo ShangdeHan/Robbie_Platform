@@ -2,7 +2,8 @@
 
 ## Summary ##
 
-**A paragraph-length pitch for your game.**
+This game is called “Robbie Swifthand and the Orb of Mysteries”, and there’s already a finished version on steam. Basically, this is an adventure game based on multiple levels. On the way to pass the level, the players have to think the way they want to go, and there might be tricky ones! After knowing the correct way, the player also needs to try their best to get rid of various kinds of obstacles, such as swing axes and spikes. I think this game is very challenging although the mechanics are not complicated, and I believe this is the most attractive part of the game: “Easy but difficult”. After clearing all the levels, the plays will get a sense of achievement, and that is our goal of designing. For what we need to do, is designing absolutely new levels, and totally self-designed maps. Moreover, we added some new features in this game. For example, we make the player invincible when he’s hanging on the wall, and give more possibilities for the player to reach the goal. What’s more, we added more kinds of obstacles than were in the original game, and I think that will make the game more challenging. I wish every player can try hard and enjoy the game!
+
 
 ## Gameplay Explanation ##
 

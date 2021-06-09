@@ -64,6 +64,7 @@ Here is an example:
 You should replay any **bold text** with your relevant information. Liberally use the template when necessary and appropriate.
 
 ## User Interface (Name: Shangde Han)
+I implemented many different functions and UI designs.
 
 *User Interface* I implemented many different function.
 

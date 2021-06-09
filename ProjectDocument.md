@@ -59,11 +59,9 @@ Here is an example:
 You should replay any **bold text** with your relevant information. Liberally use the template when necessary and appropriate.
 
 ## User Interface (Name: Shangde Han)
-I implemented many different functions and UI designs. For the orbs icon, there is a function to count the total orbs [UpdateOrbUI](https://github.com/ShangdeHan/ECS189_FinalProject/blob/main/RobbiePlatform/Assets/Scripts/UIManager.cs#L22)
+I implemented many different functions and UI designs. For the orbs icon, there is a function to count the total orbs [UpdateOrbUI](https://github.com/ShangdeHan/ECS189_FinalProject/blob/main/RobbiePlatform/Assets/Scripts/UIManager.cs#L22). For the time icon, there is a function to show the elapsed time [UpdateTimeUI] (https://github.com/ShangdeHan/ECS189_FinalProject/blob/main/RobbiePlatform/Assets/Scripts/UIManager.cs#L27).
 
-Music volume slider: I designed a slider to let player control the music volume from low to high. 
-
-There is a "Pause" button on the top of the screen. Player can click that button or "ESC" on keyboard to open or close the Pause Menu. In the menu, there is a music volume slider that player can control to adjust the music from low to high. In addition, there are some tips, such as move, jump, crouch to help player know how to play this game. What's more, there is a "Resume" button can let player continue to play game. And also there is a "Quit" button to let player quit the game if the player play in the game. 
+For the Pause Menu, this is the main part of the UI. There is a "Pause" button on the top of the screen [Pause Game] (https://github.com/ShangdeHan/ECS189_FinalProject/blob/main/RobbiePlatform/Assets/Scripts/Menu.cs#L27). At the moment, the whole game includes music and animation will be stopped. Player can click that button or "ESC" on keyboard to open or close the Pause Menu. In the menu, there is a music volume slider that player can control to adjust the music from low to high. In addition, there are some tips, such as move, jump, crouch to help player know how to play this game. What's more, there is a "Resume" button can let player continue to play game [Resume] (https://github.com/ShangdeHan/ECS189_FinalProject/blob/main/RobbiePlatform/Assets/Scripts/Menu.cs#L34). And also there is a "Quit" button to let player quit the game when the player in the game [Quit] (https://github.com/ShangdeHan/ECS189_FinalProject/blob/main/RobbiePlatform/Assets/Scripts/Menu.cs#L41).
 
 
 

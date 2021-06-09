@@ -7,11 +7,6 @@ This game is called “Robbie Swifthand and the Orb of Mysteries”, and there�
 
 ## Gameplay Explanation ##
 
-**In this section, explain how the game should be played. Treat this as a manual within a game. It is encouraged to explain the button mappings and the most optimal gameplay strategy.**
-
-
-**If you did work that should be factored in to your grade that does not fit easily into the proscribed roles, add it here! Please include links to resources and descriptions of game-related material that does not fit into roles here.**
-
 Play Method:
 Method 1: Go to Executable Game file and download RobbieGame.zip file to play directly.
 Method 2: Download all GitHub file and open it from Unity.
@@ -72,7 +67,7 @@ There is a "Pause" button on the top of the screen. Player can click that button
 
 
 
-## Movement/Physics (Chongwen Wang)
+## Movement/Physics
 
 In our game, the basics of movements we have are ```go left/right```, ```jump```, and ```crouch```. And some special movement such as ```crouch jump``` (jump higher) and ```catch the edge of the floor```. All these movements were implemented in [PlayerMovement.cs](https://github.com/ShangdeHan/ECS189_FinalProject/blob/0c1dc38227404291f04ace6146d4f7b8cbb8a671/RobbiePlatform/Assets/Scripts/PlayerMovement.cs). 
 
@@ -83,11 +78,13 @@ This movement script does not use any standard physics model and physics system.
 To have the best performance, player’s movement will display differently according to the situation. Some physics elements will change to make these movements look more similar to real-world movements, such as velocity. When the character is crouching, the speed of walking will [decrease]( https://github.com/ShangdeHan/ECS189_FinalProject/blob/0c1dc38227404291f04ace6146d4f7b8cbb8a671/RobbiePlatform/Assets/Scripts/PlayerMovement.cs#L122). 
 
 
-## Animation and Visuals
+## Animation and Visuals(Yiming Peng)
 
-**List your assets including their sources and licenses.**
+I found the assets from the unity open source and steam open source.
 
-**Describe how your work intersects with game feel, graphic design, and world-building. Include your visual style guide if one exists.**
+I added some particle effects in the game to make it more fun and I have inserted a picture to show the mission is accomplished. When the Robbie character dies, there will appear a red circle and it keeps shrinking down until it finally disappears, then the character will revive. After the character passes each level the next level will automatically appear for the users to play in the next level until they approach the final stage which means the users have passed all the game levels. They will eventually see a mission success picture to celebrate the users having completed all the game levels.
+**Describe how your work intersects with game feel, graphic design, and world-building. 
+
 
 ## Input
 Just like most of the games, A means moving left, D means moving right, Space means a single jump, Cril means crounch, Crtl plus Space means double jump, and also
@@ -100,13 +97,34 @@ Many of the game data comes from the Assets store of Steam, and some of them are
 
 # Sub-Roles
 
-## Audio
+## Audio (Yiming Peng)
 
-**List your assets including their sources and licenses.**
+I found the game audios from the unity open source and steam open source. And I created a audio manager script to control different types of game audio. Here is an example where the audio manager starts: https://github.com/ShangdeHan/ECS189_FinalProject/blob/78b805a00600d85e3fdad4c200c2959726aa95a5/RobbiePlatform/Assets/Scripts/AudioManager.cs#L57 
 
-**Describe the implementation of your audio system.**
+I have added some audio to our game. (Like game sound, player sound, etc.) More specifically, we have “lose audio-if the character dies”, “win audio-if the character passes a game level”, “character walking sound”, “background game audio”. I wrote an audio management script to manage all the audio in our game. 
+In the audio manager script:
+StartLevelAudio()
+This function is for managing the starting game sound.
+PlayerWonAudio()
+This function is for managing the sound when the character passes the current game level.
+PlayDoorOpenAudio()
+This function is for managing the sound when the character opens doors in the game.
+PlyerFootStepAudio()
+This function is for managing the sound when the character walks in the game.
+PlyerCrouchFootStepAudio()
+This function is for managing the sound when the character crouches in the game.
+playJumpAudio()
+This function is for managing the sound when the character jumps in the game.
+playDeathAudio()
+This function is for managing the sound when the character dies in the game.
+playOrbAudio()
+Orb is a collection and once the player collects one orb the corresponding sound will play. It can also remind the users that they have already collected these orbs for them to pass the current game level.
+SetVolume()
+Using an audio mixer to manage all audios in this game.
+  
+Used audio mixer control to change the game background music volume. UI will be using an audio mixer later. The remaining work will be adding some more audio when the character dies and when the character makes it to the next game level. I might also need to add a volume control button to our game in order to let users change the volume of background sound.
 
-**Document the sound style.** 
+The style of game sound is a classic sense of adventure game, including collecting orb or passing / failing sound, which can make players return to the feeling of adventure game for the first time.
 
 ## Gameplay Testing (Shijiao Song)
 
@@ -122,15 +140,9 @@ After a few tests by myself, and some tests done by my friends and TA, I found s
 
 Moreover, we changed some obstacles to make the game difficulty more suitable for players.
 
-## Narrative Design (Chongwen Wang)
+## Narrative Design
 
-For the narrative design, I design a background story that help our team design the gameplay logic, game levels, and make player have a better game experience. By knowing the background, player can figure out their final mission of the game.  
-
-The background story is: Robbie left his home since childhood. In order to survive, he needs to find food by stealing. After years of experience, Robbie has super athletic ability and a smart brain and became a well-known local robber. One day, someone found Robbie and wanted to hire him to steal gems in an underground warehouse of a rich man. After the mission is completed, Robbie can get a lot of money and no longer worry about survival. Robbie does not want to give up this chance, so his adventure begins…
-
-The narrative present in game levels. In each level, people need to collect gems/coins in order to go to the next level. The reason why Robbie is taking these gems is that these gems will bring him a better life. And the map of each level was designed based on the underground warehouse.  
-
-Also, the narrative present in game movement, such as some special skills Robbie has. Super jump (crouch- jump) reflects the reason why Robbie becomes a well-known local robber. 
+**Document how the narrative is present in the game via assets, gameplay systems, and gameplay.** 
 
 ## Press Kit and Trailer
 

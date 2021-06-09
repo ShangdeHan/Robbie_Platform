@@ -12,6 +12,31 @@ This game is called “Robbie Swifthand and the Orb of Mysteries”, and there�
 
 **If you did work that should be factored in to your grade that does not fit easily into the proscribed roles, add it here! Please include links to resources and descriptions of game-related material that does not fit into roles here.**
 
+Play Method:
+Method 1: Go to Executable Game file and download RobbieGame.zip file to play directly.
+Method 2: Download all GitHub file and open it from Unity.
+Game play:
+"A" or "←": Move left.
+"D" or "→": Move right.
+"Space": Jump.
+"Ctrl": Crouch.
+"Space" after "Ctrl": Jump higher.
+"Ctrl": if you are hanging on the wall, press "Ctrl" to drop down.
+Props:
+Orb: Door only opens after getting enough orbs.
+Skills:
+Keep press button "Ctrl" and move right or left a little then jump will jump higher.
+Easter Egg:
+You will get a easter egg after completing all three levels.
+Tips:
+Based on our design, you only can change music volume at the begining of the game.
+Estimated game time
+Level 1: About 5 mins
+
+Level 2: About 8 mins
+
+Level 3: About 12 mins
+
 The core gameplay system is to explore adventure. By controlling the thief, the player will explore and take an adventure of the temple and each different level. When the player is playing our game, he / she can walk, collect items which are the shiny coins, and avoid obstacles. And the time recorder on the top right would record your time for each level so you can challenge yourself every time. And the coin collector recorder would record how many coins you have collected in each level. Overall, this game will challenge the player’s skill to stay alive and complete the mission.
 Here is the diagram to show the core gameplay system of our game. In this diagram, we can see that the player will start from the beginning place and it needs to collect the coins / avoid the obstacles and find a way out in each level. If you die, then you will restart at the beginning place. If not, you will enter into the next level. After you have found all the ways out, the game will pop out the reminder showing that you have finished all missions and you have got out the temple successfully. It’s basically like a loop. If you die then loop over again and again until you have met all the requirements to get out or you will be stuck in this dark temple forever.
 

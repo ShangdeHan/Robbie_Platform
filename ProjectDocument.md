@@ -76,7 +76,7 @@ To have the best performance, player’s movement will display differently accor
 
 ## Animation and Visuals(Yiming Peng)
 
-I found the assets from the unity open source and steam open source. And here is [the player animation design] (https://github.com/ShangdeHan/ECS189_FinalProject/blob/087f9610cb22a5bb8079038a1e679a9f613c4953/RobbiePlatform/Assets/Scripts/PlayerAnimation.cs). This is how I trigger [orb effect](https://github.com/ShangdeHan/ECS189_FinalProject/blob/cdc9d3a045be12d2b76b48b830df24b7ca90b56b/RobbiePlatform/Assets/Scripts/Orb.cs) in unity from the script.
+I found the assets from the unity open source and steam open source. And here is [the player animation design](https://github.com/ShangdeHan/ECS189_FinalProject/blob/main/RobbiePlatform/Assets/Scripts/PlayerAnimation.cs#L5). This is how I trigger [orb effect](https://github.com/ShangdeHan/ECS189_FinalProject/blob/cdc9d3a045be12d2b76b48b830df24b7ca90b56b/RobbiePlatform/Assets/Scripts/Orb.cs) in unity from the script.
 
 I added some particle effects in the game to make it more fun and I have inserted a picture to show the mission is accomplished. When the Robbie character dies, there will appear a red circle and it keeps shrinking down until it finally disappears, then the character will revive. After the character passes each level the next level will automatically appear for the users to play in the next level until they approach the final stage which means the users have passed all the game levels. They will eventually see a mission success picture to celebrate the users having completed all the game levels.
 

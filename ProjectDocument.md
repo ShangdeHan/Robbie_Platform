@@ -11,8 +11,15 @@ This game is called “Robbie Swifthand and the Orb of Mysteries”, and there�
 
 
 **If you did work that should be factored in to your grade that does not fit easily into the proscribed roles, add it here! Please include links to resources and descriptions of game-related material that does not fit into roles here.**
+
 The core gameplay system is to explore adventure. By controlling the thief, the player will explore and take an adventure of the temple and each different level. When the player is playing our game, he / she can walk, collect items which are the shiny coins, and avoid obstacles. And the time recorder on the top right would record your time for each level so you can challenge yourself every time. And the coin collector recorder would record how many coins you have collected in each level. Overall, this game will challenge the player’s skill to stay alive and complete the mission.
-	Here is the diagram to show the core gameplay system of our game. In this diagram, we can see that the player will start from the beginning place and it needs to collect the coins / avoid the obstacles and find a way out in each level. If you die, then you will restart at the beginning place. If not, you will enter into the next level. After you have found all the ways out, the game will pop out the reminder showing that you have finished all missions and you have got out the temple successfully. It’s basically like a loop. If you die then loop over again and again until you have met all the requirements to get out or you will be stuck in this dark temple forever.
+Here is the diagram to show the core gameplay system of our game. In this diagram, we can see that the player will start from the beginning place and it needs to collect the coins / avoid the obstacles and find a way out in each level. If you die, then you will restart at the beginning place. If not, you will enter into the next level. After you have found all the ways out, the game will pop out the reminder showing that you have finished all missions and you have got out the temple successfully. It’s basically like a loop. If you die then loop over again and again until you have met all the requirements to get out or you will be stuck in this dark temple forever.
+
+In this game, the main part is the tilemap and the script parts. Since it is a 2D exploring/adventuring game, it is really important to design both interesting and exciting game maps for the players to dive into. Beyond the first 2 levels which were reimplementing the existing levels, we created level three which is way harder and more interesting than the previous two levels. Although level 3 might seem a little bit too hard for those who are new to the game, we hope the game is not an easy one and people can gain more interest as they restart the game again and again. 
+When the player is gathering the coin, the audio manager and other managers will make the sound to acknowledge the player (and also touch other things or die) and keep the record of how many coins did the player get and how much time did the player used to complete each level. 
+We wish our game can provide players with an exciting adventure by adding all the UI, Input, Art, Music, etc altogether. 
+Hope you guys like our idea and enjoy the game!
+
 
 # Main Roles #
 

@@ -83,7 +83,9 @@ To have the best performance, player’s movement will display differently accor
 I found the assets from the unity open source and steam open source.
 
 I added some particle effects in the game to make it more fun and I have inserted a picture to show the mission is accomplished. When the Robbie character dies, there will appear a red circle and it keeps shrinking down until it finally disappears, then the character will revive. After the character passes each level the next level will automatically appear for the users to play in the next level until they approach the final stage which means the users have passed all the game levels. They will eventually see a mission success picture to celebrate the users having completed all the game levels.
-**Describe how your work intersects with game feel, graphic design, and world-building. 
+
+In the aspect of animation, the movement of characters in the game is not coherent, which will give players better control over the speed of characters' movement and make it easier to pass. In addition, the visual effect mentioned above can bring players some novel experience that ordinary adventure games don't have, which can make the game experience better. The overall animation aspect is very fluent and free, which can give players a good game experience and let them enjoy playing this game.
+**Describe graphic design, and world-building. 
 
 
 ## Input

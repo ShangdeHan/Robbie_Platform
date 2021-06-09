@@ -76,7 +76,7 @@ To have the best performance, player’s movement will display differently accor
 
 ## Animation and Visuals(Yiming Peng)
 
-I found the assets from the unity open source and steam open source. And here is an example about animation design: https://github.com/ShangdeHan/ECS189_FinalProject/blob/50874764f480d03281b45317cbe971e79b3d7513/RobbiePlatform/Assets/Scripts/PlayerAnimation.cs#L11 This is how I trigger [orb effect](https://github.com/ShangdeHan/ECS189_FinalProject/blob/cdc9d3a045be12d2b76b48b830df24b7ca90b56b/RobbiePlatform/Assets/Scripts/Orb.cs) in unity from the script.
+I found the assets from the unity open source and steam open source. And here is [the player animation design] (https://github.com/ShangdeHan/ECS189_FinalProject/blob/087f9610cb22a5bb8079038a1e679a9f613c4953/RobbiePlatform/Assets/Scripts/PlayerAnimation.cs). This is how I trigger [orb effect](https://github.com/ShangdeHan/ECS189_FinalProject/blob/cdc9d3a045be12d2b76b48b830df24b7ca90b56b/RobbiePlatform/Assets/Scripts/Orb.cs) in unity from the script.
 
 I added some particle effects in the game to make it more fun and I have inserted a picture to show the mission is accomplished. When the Robbie character dies, there will appear a red circle and it keeps shrinking down until it finally disappears, then the character will revive. After the character passes each level the next level will automatically appear for the users to play in the next level until they approach the final stage which means the users have passed all the game levels. They will eventually see a mission success picture to celebrate the users having completed all the game levels.
 
@@ -98,8 +98,7 @@ Many of the game data comes from the Assets store of Steam, and some of them are
 
 ## Audio (Yiming Peng)
 
-I found the game audios from the unity open source and steam open source. And I created a audio manager script to control different types of game audio. Here is an example where the audio manager starts: https://github.com/ShangdeHan/ECS189_FinalProject/blob/78b805a00600d85e3fdad4c200c2959726aa95a5/RobbiePlatform/Assets/Scripts/AudioManager.cs#L57 
-The [auido manager](https://github.com/ShangdeHan/ECS189_FinalProject/blob/25e4ac59c18cc940c6cf461e87173229c1d12698/RobbiePlatform/Assets/Scripts/AudioManager.cs) takes charge of different game audio.
+I found the game audios from the unity open source and steam open source. And I created a audio manager script to control different types of game audio. Here is the [auido manager](https://github.com/ShangdeHan/ECS189_FinalProject/blob/25e4ac59c18cc940c6cf461e87173229c1d12698/RobbiePlatform/Assets/Scripts/AudioManager.cs) which takes charge of different game audio.
 
 I have added some audio to our game. (Like game sound, player sound, etc.) More specifically, we have “lose audio-if the character dies”, “win audio-if the character passes a game level”, “character walking sound”, “background game audio”. I wrote an audio management script to manage all the audio in our game. 
 In the audio manager script:

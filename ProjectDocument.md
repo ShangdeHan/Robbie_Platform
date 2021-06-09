@@ -15,6 +15,7 @@ This game is called “Robbie Swifthand and the Orb of Mysteries”, and there�
 Play Method:
 Method 1: Go to Executable Game file and download RobbieGame.zip file to play directly.
 Method 2: Download all GitHub file and open it from Unity.
+
 Game play:
 "A" or "←": Move left.
 "D" or "→": Move right.
@@ -22,15 +23,18 @@ Game play:
 "Ctrl": Crouch.
 "Space" after "Ctrl": Jump higher.
 "Ctrl": if you are hanging on the wall, press "Ctrl" to drop down.
+
 Props:
 Orb: Door only opens after getting enough orbs.
 Skills:
 Keep press button "Ctrl" and move right or left a little then jump will jump higher.
 Easter Egg:
 You will get a easter egg after completing all three levels.
+
 Tips:
 Based on our design, you only can change music volume at the begining of the game.
 Estimated game time
+
 Level 1: About 5 mins
 
 Level 2: About 8 mins

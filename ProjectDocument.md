@@ -11,6 +11,8 @@ This game is called “Robbie Swifthand and the Orb of Mysteries”, and there�
 
 
 **If you did work that should be factored in to your grade that does not fit easily into the proscribed roles, add it here! Please include links to resources and descriptions of game-related material that does not fit into roles here.**
+The core gameplay system is to explore adventure. By controlling the thief, the player will explore and take an adventure of the temple and each different level. When the player is playing our game, he / she can walk, collect items which are the shiny coins, and avoid obstacles. And the time recorder on the top right would record your time for each level so you can challenge yourself every time. And the coin collector recorder would record how many coins you have collected in each level. Overall, this game will challenge the player’s skill to stay alive and complete the mission.
+	Here is the diagram to show the core gameplay system of our game. In this diagram, we can see that the player will start from the beginning place and it needs to collect the coins / avoid the obstacles and find a way out in each level. If you die, then you will restart at the beginning place. If not, you will enter into the next level. After you have found all the ways out, the game will pop out the reminder showing that you have finished all missions and you have got out the temple successfully. It’s basically like a loop. If you die then loop over again and again until you have met all the requirements to get out or you will be stuck in this dark temple forever.
 
 # Main Roles #
 

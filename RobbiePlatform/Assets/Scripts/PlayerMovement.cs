@@ -39,9 +39,7 @@ public class PlayerMovement : MonoBehaviour
     public float eyeHeight = 1.5f;
     public float grabDistance = 0.4f;
     public float reachOffset = 0.7f;
-
     public LayerMask groundLayer;
-
     public float xVelocity;
 
     //Collider size

@@ -72,7 +72,7 @@ There is a "Pause" button on the top of the screen. Player can click that button
 
 
 
-## Movement/Physics
+## Movement/Physics (Chongwen Wang)
 
 In our game, the basics of movements we have are ```go left/right```, ```jump```, and ```crouch```. And some special movement such as ```crouch jump``` (jump higher) and ```catch the edge of the floor```. All these movements were implemented in [PlayerMovement.cs](https://github.com/ShangdeHan/ECS189_FinalProject/blob/0c1dc38227404291f04ace6146d4f7b8cbb8a671/RobbiePlatform/Assets/Scripts/PlayerMovement.cs). 
 
@@ -122,7 +122,7 @@ After a few tests by myself, and some tests done by my friends and TA, I found s
 
 Moreover, we changed some obstacles to make the game difficulty more suitable for players.
 
-## Narrative Design
+## Narrative Design (Chongwen Wang)
 
 For the narrative design, I design a background story that help our team design the gameplay logic, game levels, and make player have a better game experience. By knowing the background, player can figure out their final mission of the game.  
 

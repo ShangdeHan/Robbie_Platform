@@ -100,6 +100,7 @@ Many of the game data comes from the Assets store of Steam, and some of them are
 ## Audio (Yiming Peng)
 
 I found the game audios from the unity open source and steam open source. And I created a audio manager script to control different types of game audio. Here is an example where the audio manager starts: https://github.com/ShangdeHan/ECS189_FinalProject/blob/78b805a00600d85e3fdad4c200c2959726aa95a5/RobbiePlatform/Assets/Scripts/AudioManager.cs#L57 
+The [auido manager](https://github.com/ShangdeHan/ECS189_FinalProject/blob/25e4ac59c18cc940c6cf461e87173229c1d12698/RobbiePlatform/Assets/Scripts/AudioManager.cs) takes charge of different game audio.
 
 I have added some audio to our game. (Like game sound, player sound, etc.) More specifically, we have “lose audio-if the character dies”, “win audio-if the character passes a game level”, “character walking sound”, “background game audio”. I wrote an audio management script to manage all the audio in our game. 
 In the audio manager script:

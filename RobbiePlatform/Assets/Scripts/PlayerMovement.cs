@@ -78,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
         GroundMovement();
         MidAirMovement();
     }
-
+    //fucntion that check for hit between player and wall by ray
     void PhysicsCheck()
     {
         //Left and right ray
@@ -108,24 +108,27 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     
-    //Different actions/movements on the ground
+    //function that handle movement that happen on the ground 
     void GroundMovement()
     {
         if (isHanging) return;
+        //call crouch() if ctrl is hold and player is on the ground
         if (crouchHeld && !isCrouch && isOnGround)
             Crouch();
+        //call standup if player release the ctrl, or please isnt on ground
         else if (!crouchHeld && isCrouch && !isHeadBlocked)
             StandUp();
         else if (!isOnGround && isCrouch)
             StandUp();
         xVelocity = Input.GetAxis("Horizontal");
+        //change speed when crouch
         if (isCrouch)
             xVelocity /= crouchSpeedDivisor;
         rb.velocity = new Vector2(xVelocity * speed, rb.velocity.y);
         FlipDirection();
     }
     
-    //Flip left and right
+    // function that handle the direction the character flip to
     void FlipDirection()
     {
         if(xVelocity < 0)
@@ -138,7 +141,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    //For crouch
+    // implement the crouch to character
     void Crouch()
     {
         isCrouch = true;
@@ -146,7 +149,7 @@ public class PlayerMovement : MonoBehaviour
         coll.offset = colliderCrouchOffset;
     }
     
-    //For stand up
+    // implement the standup to character
     void StandUp()
     {
         isCrouch = false;
@@ -154,7 +157,7 @@ public class PlayerMovement : MonoBehaviour
         coll.offset = colliderStandOffset;
     }
 
-    //Check if hangs on the stuff in the middle
+    // function that handle the movement that display in the air
     void MidAirMovement()
     {
         if (isHanging)

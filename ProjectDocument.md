@@ -144,11 +144,12 @@ Moreover, we changed some obstacles to make the game difficulty more suitable fo
 
 For the narrative design, I design a background story that help our team design the gameplay logic, game levels, and make player have a better game experience. By knowing the background, player can figure out their final mission of the game.  
 
-The background story is: Robbie left his home since childhood. In order to survive, he needs to find food by stealing. After years of experience, Roobie has super athletic ability and a smart brain and became a well-known local robber. One day, someone found Roobie and wanted to hire him to steal gems in an underground warehouse of a rich man. After the mission is completed, Roobie can get a lot of money and no longer worry about survival. Roobie does not want to give up this chance, so his adventure begins…
+The background story is: Robbie left his home since childhood. In order to survive, he needs to find food by stealing. After years of experience, Robbie has super athletic ability and a smart brain and became a well-known local robber. One day, someone found Robbie and wanted to hire him to steal gems in an underground warehouse of a rich man. After the mission is completed, Robbie can get a lot of money and no longer worry about survival. Robbie does not want to give up this chance, so his adventure begins…
 
-The narrative present in game levels, in each level, people need to collect gems/coins in order to go to the next level, and the reason why Robbie is taking these gems is because these gems will bring him a better life. And the map of each level is design based on the underground warehouse.  
+The narrative present in game levels. At each level, people need to collect gems/coins in order to go to the next level. The reason why Robbie is taking these gems is that these gems will bring him a better life. And the map of each level was designed based on the underground warehouse. 
 
-Also, the narrative present in game movement, such as some special skill Robbie has. Super jump (crouch- jump) this skill reflects the reason why Robbie become a well-known local robber. 
+Also, the narrative present in game movement, such as some special skills Robbie has. Super jump (crouch- jump) reflects the reason why Robbie becomes a well-known local robber. 
+
 
 ## Press Kit and Trailer
 

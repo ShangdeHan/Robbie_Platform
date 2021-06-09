@@ -65,7 +65,13 @@ You should replay any **bold text** with your relevant information. Liberally us
 
 ## User Interface (Name: Shangde Han)
 
-**Describe your user interface and how it relates to gameplay. This can be done via the template.**
+*User Interface* I implemented many different function.
+
+Music volume slider: I designed a slider to let player control the music volume from low to high. 
+
+There is a "Pause" button on the top of the screen. Player can click that button or "ESC" on keyboard to open or close the Pause Menu. In the menu, there is a music volume slider that player can control to adjust the music from low to high. In addition, there are some tips, such as move, jump, crouch to help player know how to play this game. What's more, there is a "Resume" button can let player continue to play game. And also there is a "Quit" button to let player quit the game if the player play in the game. 
+
+
 
 ## Movement/Physics
 
@@ -132,7 +138,6 @@ For the trailer, I picked some short clips from each level to show players what 
 
 ## Game Feel (Name: Shangde Han)
 
-**Document what you added to and how you tweaked your game to improve its game feel.**
 ### Summary:
 Game feel in this game motivates players to explore every new things and skills to arrive the next level. 
 If players do not check the pause menu, they do not know how to jump higher and how many levels in total. Like Super Mario or many other game, players need to try many different 

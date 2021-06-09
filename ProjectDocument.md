@@ -124,7 +124,11 @@ Moreover, we changed some obstacles to make the game difficulty more suitable fo
 
 ## Narrative Design
 
-**Document how the narrative is present in the game via assets, gameplay systems, and gameplay.** 
+For the narrative design, I design a background story that help our team design the gameplay logic, game levels, and make player have a better game experience. By knowing the background, player can figure out their final mission of the game.  
+
+The background story is: Robbie left his home since childhood. In order to survive, he needs to find food by stealing. After years of experience, Roobie has super athletic ability and a smart brain and became a well-known local robber. One day, someone found Roobie and wanted to hire him to steal gems in an underground warehouse of a rich man. After the mission is completed, Roobie can get a lot of money and no longer worry about survival. Roobie does not want to give up this chance, so his adventure begins…
+
+The narrative present in game levels, in each level, people need to collect gems/coins in order to go to the next level, and the reason why Robbie is taking these gems is because these gems will bring him a better life. 
 
 ## Press Kit and Trailer
 

@@ -64,9 +64,7 @@ Here is an example:
 You should replay any **bold text** with your relevant information. Liberally use the template when necessary and appropriate.
 
 ## User Interface (Name: Shangde Han)
-I implemented many different functions and UI designs.
-
-*User Interface* I implemented many different function.
+I implemented many different functions and UI designs. For the orbs icon, there is a function to count the total orbs [UpdateOrbUI](https://github.com/ShangdeHan/ECS189_FinalProject/blob/main/RobbiePlatform/Assets/Scripts/UIManager.cs#L22)
 
 Music volume slider: I designed a slider to let player control the music volume from low to high. 
 
